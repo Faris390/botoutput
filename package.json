@@ -1,9 +1,12 @@
 {
   "name": "botoutput",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
-  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0"
+    "@adiwajshing/baileys": "^5.0.0"
   }
 }
